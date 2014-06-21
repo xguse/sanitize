@@ -13,7 +13,7 @@ setup(
     license = 'BSD',
     keywords = 'filename sanitization',
     url = 'https://github.com/ksze/sanitize',
-    py_modules = ['sanitize'],
+    py_modules = ['sanitize_path'],
     long_description = read('README.md'),
     classifiers = [
         'Development Status :: 3 - Alpha',

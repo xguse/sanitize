@@ -5,7 +5,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = 'sanitize_path',
+    name = 'sanitize',
     version = '0.0.1',
     author = 'Kal Sze (twitter.com/k_sze, github.com/ksze)',
     author_email = 'swordangel@gmail.com',
@@ -13,7 +13,7 @@ setup(
     license = 'BSD',
     keywords = 'filename sanitization',
     url = 'https://github.com/ksze/sanitize',
-    py_modules = ['sanitize_path'],
+    py_modules = ['sanitize'],
     long_description = read('README.md'),
     classifiers = [
         'Development Status :: 3 - Alpha',
